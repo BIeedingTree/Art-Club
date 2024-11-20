@@ -178,7 +178,7 @@ class ScatterArtPage extends StatelessWidget {
               crossAxisCount: 2,
               mainAxisSpacing: gridSpacing,
               crossAxisSpacing: gridSpacing,
-              childCount: 4,
+              childCount: 6,
               itemBuilder: (context, index) => Container(
                 margin: EdgeInsets.all(gridSpacing),
                 decoration: BoxDecoration(
@@ -203,7 +203,7 @@ class ScatterArtPage extends StatelessWidget {
           ),        
         ],
       ),
-      bottomNavigationBar:  BottomNavBar(),
+      bottomNavigationBar: const BottomNavBar(),
     );
   }
 }
